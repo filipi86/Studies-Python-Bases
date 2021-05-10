@@ -1,0 +1,5 @@
+nome = str(input('Meu nome eh: '))
+empresa = str(input('Trabalho na empresa: '))
+funcionarios = int(input('Possui quantos funcionarios: '))
+mediaMensalidade = float(input('Qual o valor medio: '))
+print('{} , trabalha na {} que possui {} funcionarios e tem o custo mensal de {}!.'.format(nome, empresa, funcionarios, mediaMensalidade))
